@@ -1,0 +1,48 @@
+.timerContainer {
+  font-family: 'Century Gothic', /* Windows (HP printer) */ 'Avant Garde Gothic',
+    /* HP font name */ 'Avant Garde', /* MacOS */ 'URW Gothic L',
+    /* Unix+X+FontConfig */ /* Fallback options */ helvetica,
+    /* Unix+X, MacOS */ sans-serif;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.3rem;
+}
+
+.timerContainerSm {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.timerCard {
+  border: 1px solid #d1d5db;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timerValue {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #2d3748; /* gray-800 */
+  text-align: center;
+}
+
+.timerLabel {
+  font-size: 0.875rem;
+  color: #718096; /* gray-600 */
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.timerText {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+}
